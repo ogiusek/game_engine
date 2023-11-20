@@ -1,0 +1,11 @@
+/dist
+program
+.vscode
+
+# CMake build directories
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+cmake_install.cmake
+Makefile
