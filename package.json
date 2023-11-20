@@ -1,0 +1,10 @@
+{
+  "name": "game_engine",
+  "scripts": {
+    "dev": "npm run compile && npm start",
+    "start": "./program",
+    "compile": "cmake . && make && rm Makefile",
+    "test": "g++ -g test/test.cpp -o test/dist -lSDL2 -lSDL2_ttf -lSDL2_image -O3 -ffast-math && echo 'compiled' && test/dist && rm test/dist"
+  },
+  "license": "ISC"
+}
